@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>APPDETECT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='logo.png') }}">
+</head>
+<body>
+
+<div class="top-section">
+
+    <h1 class="logo"><b>APPDETECT&nbsp;</h1></b>
+
+    <div class="navbar-box">
+        <a href="/"></a>Home</a>
+        <a href="/login"><b>Login</b></a>
+        <a href="/about"><b>About</b></a>
+        <a href="/service"><b>Service</b></a>
+    </div>
+
+</div>
+
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <script>
+        alert("{{ messages[0] }}");
+    </script>
+  {% endif %}
+{% endwith %}
+
+{% block content %}{% endblock %}
+
+</body>
+</html>

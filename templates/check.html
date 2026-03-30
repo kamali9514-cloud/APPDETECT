@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <h2>Check Application</h2>
+
+    <form action="{{ url_for('check') }}" method="POST">
+        <input type="text" name="appname" placeholder="Enter App Name" required>
+        <button type="submit">Check</button>
+    </form>
+</div>
+
+{% endblock %}

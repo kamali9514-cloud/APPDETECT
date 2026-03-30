@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <h2>Check History</h2>
+
+    {% if data %}
+        <table style="width:100%; margin-top:20px; color:white;">
+            <tr>
+                <th>App Name</th>
+                <th>Result</th>
+                <th>Date</th>
+            </tr>
+
+            {% for row in data %}
+            <tr>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No history available.</p>
+    {% endif %}
+
+</div>
+
+{% endblock %}

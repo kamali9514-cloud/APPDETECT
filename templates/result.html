@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>APPDETECT Result</h2>
+
+    <p class="app-name">App Name: {{ appname }}</p>
+
+    {% if "Safe" in result %}
+        <p class="safe">{{ result }}</p>
+    {% else %}
+        <p class="danger">{{ result }}</p>
+    {% endif %}
+
+    <a href="{{ url_for('history') }}" class="btn">View History</a>
+</div>
+
+</body>
+</html>
