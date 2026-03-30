@@ -43,13 +43,9 @@ APPDETECT/
 
 ---
 
-## 🚀 How to Run the Project
-1. Download or clone the repository
-2. Open the folder
-3. Install Flask: `pip install flask`  
-4. Run app: `python app.py`  
-5. Navigate through pages using the menu
-
+## 🌐 Live Demo
+   https://appdetect.onrender.com
+   
 ---
 ## 👨‍💻 Author
 - Developed by: Kamali.S
