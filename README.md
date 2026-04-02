@@ -7,7 +7,7 @@ It focuses on clean UI design and smooth navigation experience.
 
 ## Features
 - Home page with navigation
--  Login system UI
+-  Login system UI  
 -  About section
 -  Services page
 -  Responsive layout (works on laptop & mobile)
