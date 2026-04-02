@@ -60,5 +60,5 @@ APPDETECT/
 
 ---
 
-## ⭐ Note
+## Note
 This project is created for learning and UI practice purposes.
