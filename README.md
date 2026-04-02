@@ -1,21 +1,21 @@
 # APPDETECT
 
-## 📌 Overview
+## Overview
 APPDETECT is a simple and user-friendly web application designed to provide a structured interface for users with features like Home, Login, About, and Service pages. 
 It focuses on clean UI design and smooth navigation experience.
 
 
-## 🎯 Features
-- 🏠 Home page with navigation
-- 🔐 Login system UI
-- ℹ️ About section
-- 🛠️ Services page
-- 📱 Responsive layout (works on laptop & mobile)
-- 🎨 Simple and clean design
+## Features
+- Home page with navigation
+-  Login system UI
+-  About section
+-  Services page
+-  Responsive layout (works on laptop & mobile)
+-  Simple and clean design
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 - Python Flask
 - SQLite Database
 - HTML
@@ -23,7 +23,7 @@ It focuses on clean UI design and smooth navigation experience.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 APPDETECT/
 │
 ├── app.py
@@ -43,16 +43,16 @@ APPDETECT/
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
    https://appdetect.onrender.com
    
 ---
-## 👨‍💻 Author
+##  Author
 - Developed by: Kamali.S
 - GitHub: https://github.com/kamali9514-cloud
 
 ---
-## 📌 Future Improvements
+##  Future Improvements
 - Add backend login authentication
 - Improve UI with animations
 - Make fully responsive mobile design
